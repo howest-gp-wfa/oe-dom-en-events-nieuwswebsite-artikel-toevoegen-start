@@ -1,17 +1,17 @@
-"use strict"
+"use strict";
 
-window.addEventListener("load", Initialise);
+window.addEventListener("load", initialise);
 
-function Initialise(){
+function initialise(){
     const newsProvider = "Howest News";
     const newCategory = "Algemeen";
 
-    let title = document.getElementById("title");
-    title.innerHTML = `${newsProvider} - ${newCategory}`;
+    const title = document.getElementById("title");
+    title.textContent = `${newsProvider} - ${newCategory}`;
 }
 
 //Gebruik deze functie wanneer er op een vlaggetje geklikt wordt
-function ChangeFlagColor() {
+function changeFlagColor() {
     if(this.className != "flag orange") {
         this.className = "flag orange";
     }
