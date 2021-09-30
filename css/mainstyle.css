@@ -29,22 +29,22 @@ article > .flag {
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 
-.submitArticle {
+.submit-article {
     margin: 5% 25%;
     padding: 2% 2%;
     border: .2em solid darkred;
     background-color: rgba(255, 187, 0, 0.692);
 }
 
-.submitArticle input,
-.submitArticle textarea,
-.submitArticle button,
-.submitArticle label {
+.submit-article input,
+.submit-article textarea,
+.submit-article button,
+.submit-article label {
     display: block;
     width: 100%;
 }
 
-.submitArticle label {
+.submit-article label {
     text-align: left;
     font-weight: bold;
 }
